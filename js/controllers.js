@@ -15,8 +15,8 @@
 	    $scope.pageClass = 'page-contact';    
 	}
 
-	angular.module('transitionApp').controller('mainController', mainController);
-	angular.module('transitionApp').controller('aboutController', aboutController);
-	angular.module('transitionApp').controller('contactController', contactController);
+	angular.module('myApp').controller('mainController', mainController);
+	angular.module('myApp').controller('aboutController', aboutController);
+	angular.module('myApp').controller('contactController', contactController);
 
 })();
