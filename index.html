@@ -4,31 +4,36 @@
 <!--[if IE 8]><html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
 <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Angular JS App</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- CSS -->
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
-
-</head>
-<body>
-
-
-  <div ng-view></div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angular JS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
 
 
-  <!-- JS -->
-  <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
-  <script src="js/lib/angular-ui-router.js"></script>
-  <script src="app.js"></script>
-  <script src="js/controllers.js"></script>
-
-</body>
+  <div ui-view></div>
 
 
+  <!-- Library files-->
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  <!-- Application main files -->
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/app.helper.js"></script>
+  <script src="app/app.routes.js"></script>
+
+  <!-- Home Component -->
+  <script src="app/components/home/homeController.js"></script>
+  <script src="app/components/home/homeService.js"></script>
+
+  </body>
 </html>
 
 

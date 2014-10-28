@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/roymj88/angularjs-seed",
+  "authors": [
+    "anoop <anoop.pr@experionglobal.com>"
+  ],
+  "description": "Angular seed project",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.3.0"
+  }
+}
