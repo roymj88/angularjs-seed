@@ -1,4 +1,4 @@
 angularjs-seed
 ======================
 
-A very basic AngularJS seed created without grunt/yeoman
+A very basic AngularJS seed package following AngularJS Style Guides 
